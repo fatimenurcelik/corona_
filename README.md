@@ -1,5 +1,5 @@
 # Corona Language
-Lex and Lexial Analysis for our "Corona" Language that an infectious pandemic disease. This project done for Programming Languages lesson homework at Akdeniz University Computer Science Engineering program. 
+Lex and Yacc "Corona" Language that an infectious pandemic disease. This project done for Programming Languages lesson homework at Akdeniz University Computer Science Engineering program. 
 
 "Corona Language" inspired heavily by Java. But this language designed as Turkish language. And syntax in CAPSLOCK form mostly. Only functions defined as "abcdEfg" type. 
 
