@@ -1,0 +1,25 @@
+<type> ::= <string> | <integer>
+<$statement> ::= <labeled statement> | <if elseif else statement> | <while statement> 
+<constant> ::= <integer>
+<constant expression> ::= <expression>
+<expression> ::= <assignment expression> | <relational expression><relational expression> ::= <expression> + [== | < | <= | > | >= | <=> | =>]+ + <expression><assignment expression> ::= <conditional expression> | <assignment>
+<assignment> ::= <left hand side> <assignment operator> <assignment expression>
+<assignment expression> ::= <conditional expression> | <assignment>
+<assignment> ::= <left hand side> <assignment operator> <assignment expression>
+<conditional expression> ::= EGER + ( + <expression> + ) + [ + <statement> +  
+                             [ YADA + ( + <expression> + ) + [ + <statement>]* + YOKSA + <statement> + ]     	
+<assignment operator> ::= ESITTIR
+<sign> ::= + | - 
+<math operator> ::= + | - | / | * | % | ARTI | EKSI | BOLU | CARPI | KALAN
+<boolean literal> ::= DOGRU | YANLIS 
+<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<integer> ::= <digit> | <integer><digit> 
+<string literal> ::= 
+string characters> ::= <string character> | <string characters> <string character> | <string characters> <digits>
+<string character> ::= <input character> except escape character| <escape character>
+<escape character> ::= \
+<singleline comment operator> ::= YORUM
+multiline comment> ::= YORUMAC + <comment> + YORUMKAPA
+<keyword> ::= DURUM | YAZIDIZISI | SAYI | DEGISKEN | EGER | YADA | YOKSA | YORUM | YORUMAC | YORUMKAPA | ESITTIR  
+              | VE | VEYA | DEGIL | ANCAKVEANCAK | DEMEK | KUCUKESIT | KUCUK | BUYUKESIT | BUYUK | ESIT | ekranaYaz | tara | DONGU 
+              | ARTI | EKSI | BOLU | CARPI | KALAN | CALISTIR | BOLUM
